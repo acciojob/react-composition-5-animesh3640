@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const Tabs = ({ tabs1,tabs2 }) => {
-    let [tabContent1, setTabContent1] = useState('');
-    let [tabContent2, setTabContent2] = useState('');
+    let [tabContent1, setTabContent1] = useState('Content for Tab 1');
+    let [tabContent2, setTabContent2] = useState('Content for Tab A');
     return (
         <div className='tabs'>
             <ul>
